@@ -1,17 +1,31 @@
 
-html {
-  font-size: 62.5%;
-}
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-img {
-  width: 100%
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  margin: 0;
+  background-color: var(--silver-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;    
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+:root {
+  /* ligth mode*/
+  --silver-background: #F7F9FC;
+  --white: #FFFFFF;
+  --black-text: #0F0F0F;
+  --silver-text: #BCBCBC;
+  --deep-silver-text: #00000066;
+  --silver-cards: #F3F3F3;
+  --silver-cards-ligth: #FBFBFCF2;
+  --purple: #3E5CE3;
+  --black-button: #323232;
+  --silver-ligth-text: #676767;
+} 
