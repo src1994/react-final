@@ -6,6 +6,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: var(--silver-background);
+    width: 1160px;
 }
 
 .logo {
