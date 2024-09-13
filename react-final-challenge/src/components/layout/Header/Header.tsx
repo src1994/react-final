@@ -1,8 +1,6 @@
-import style from './NavBar.module.css';
+import style from './Header.module.css';
 
-function NavBar() {
-
-    console.log(style)
+function Header() {
 
     return (
         <header>
@@ -19,4 +17,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default Header;
