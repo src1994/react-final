@@ -1,0 +1,15 @@
+.about-img-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 371px;
+    height: 371px;
+    border-radius: 30px;
+    background-color: var(--white);
+}
+.photo-img {
+    width: 323px;
+    height: 323px;
+    border-radius: 30px;
+    background-color: var(--silver-cards);
+}

@@ -1,0 +1,69 @@
+
+.main-footer-left {
+    width: 50%;
+    height: 240px;
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .stats-numb {
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 41.15px;
+    letter-spacing: -0.055em;
+    text-align: center;
+    color: var(--purple)
+  }
+
+  .stats-text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--silver-text);
+    text-transform: uppercase;
+    width: 65%;
+  }
+
+  .years{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 180px;
+    background-color: var(--silver-cards-ligth);
+    border-radius: 30px;
+  }
+  
+  .clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 180px;
+    background-color: var(--silver-cards-ligth);
+    border-radius: 30px;
+  }
+  
+  .total-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 180px;
+    background-color: var(--silver-cards-ligth);
+    border-radius: 30px;
+  }

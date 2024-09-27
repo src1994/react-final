@@ -1,0 +1,55 @@
+.experience {
+    width: 568px;
+    height: 270px;
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 40px 25px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: var(--black-text);
+    text-transform: uppercase;
+}
+
+.year-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: var(--deep-silver-text);
+    padding-bottom: 10px;
+}
+
+.title-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: var(--purple);
+}
+
+.text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: var(--deep-silver-text);
+}
+
