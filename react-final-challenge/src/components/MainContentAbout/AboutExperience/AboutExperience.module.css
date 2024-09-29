@@ -6,6 +6,12 @@
     padding: 40px 25px;
 }
 
+[data-theme='dark'] .experience {
+    background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.075) 10.15%, rgba(255, 255, 255, 0.0125) 89.36%);
+    border: 1px solid;
+    border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
+  }
+
 .text-container {
     display: flex;
     flex-direction: column;
@@ -30,7 +36,7 @@
     line-height: 16.8px;
     letter-spacing: -0.01em;
     text-align: left;
-    color: var(--deep-silver-text);
+    color: var(--silver-text);
     padding-bottom: 10px;
 }
 

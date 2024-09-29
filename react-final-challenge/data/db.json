@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "name": "Dynamic",
+            "category": "Web Design",
+            "id": 1
+            
+        },
+        {
+            "name": "Disel H1",
+            "category": "Photogra",
+            "id": 2
+        },
+        {
+            "name": "Seven Studio",
+            "category": "Mobile Designing",
+            "id": 3
+        },
+        {
+            "name": "Submarine",
+            "category": "Mobile Designing",
+            "id": 4
+        },
+        {
+            "name": "Raven Studio",
+            "category": "Branding",
+            "id": 5
+        },
+        {
+            "name": "Hydra Merc",
+            "category": "Web Designing",
+            "id": 6
+        }
+        
+    ]
+}

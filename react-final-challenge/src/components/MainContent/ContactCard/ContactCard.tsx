@@ -5,12 +5,12 @@ function ContactCard() {
 
     return(
         <div className={styles['main-footer-rigth']}>
-        <div className={styles['main-footer-rigth-container']}>
-            <h1>Lets <br/> work <span>together.</span></h1>
-            <div className={styles['star-icon']}>
-                <RiShareCircleLine/>
+            <div className={styles['main-footer-rigth-container']}>
+                <h1>Lets <br/> work <span>together.</span></h1>
+                <div className={styles['star-icon']}>
+                    <RiShareCircleLine/>
+                </div>
             </div>
-        </div>
         </div>
     )
 }

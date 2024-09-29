@@ -16,7 +16,9 @@ function MainContentAbout() {
                 <AboutPhotoCard/>
             </div>
             <div className="summary-rigth">
-                <TitleCard/>
+                <TitleCard
+                    Title ="self-summary"
+                />
                 <AboutIntro/>
             </div>
         </section>

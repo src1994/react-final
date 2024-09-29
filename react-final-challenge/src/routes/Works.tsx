@@ -1,11 +1,12 @@
 import React from 'react'
+import MainContentWorks from '../components/MainContentWorks/MainContentWorks'
 
 function Works() {
     return (
         <div>
-            <p>Works page</p>
+            <MainContentWorks/>
         </div>
     )
 }
 
-export default Works
+export default Works;

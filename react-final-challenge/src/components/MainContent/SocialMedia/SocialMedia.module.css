@@ -6,12 +6,24 @@
     border-radius: 30px;
   }
   
+  [data-theme='dark'] .hero-rigth {
+    background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.075) 10.15%, rgba(255, 255, 255, 0.0125) 89.36%);
+    border: 1px solid;
+    border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
+  }
+
   .hero-rigth-background {
     width: 224px;
     height: 126px;
     background-color: var(--silver-cards-ligth);
     border-radius: 20px;
 }
+
+[data-theme='dark'] .hero-rigth-background {
+    background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.075) 10.15%, rgba(255, 255, 255, 0.0125) 89.36%);
+    border: 1px solid;
+    border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
+  }
 
 .hero-rigth-background-wrapper {
     display: flex;
@@ -21,6 +33,7 @@
     gap: 20px;
     height: 100%;
 }
+
 
 .icon-container {
     width: 82px;
@@ -33,6 +46,12 @@
     font-size: 50px;
     color: var(--purple);
 }
+
+[data-theme='dark'] .icon-container {
+    background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.075) 10.15%, rgba(255, 255, 255, 0.0125) 89.36%);
+    border: 1px solid;
+    border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
+  }
 
 
 .hero-rigth-container {

@@ -9,6 +9,12 @@
     border-radius: 30px;
   }
 
+  [data-theme='dark'] .main-center {
+    background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.075) 10.15%, rgba(255, 255, 255, 0.0125) 89.36%);
+    border: 1px solid;
+    border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
+  }
+
   .main-center-icons {
     height: 126px;
     display: flex;

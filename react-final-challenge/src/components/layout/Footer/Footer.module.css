@@ -1,3 +1,7 @@
+footer {
+    padding-bottom: 80px;
+    }
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -11,6 +15,7 @@
   font-weight: 500;
   letter-spacing: -2.5999999046325684px;
   text-align: center;
+  color: var(--black-text)
 
 }
 .logo-last-name {
@@ -27,6 +32,11 @@
     text-decoration: none;
     color: var(--silver-ligth-text);
 }
+
+.footer-nav a:hover { 
+    color: var(--purple);
+}
+
 .copyrigth-text {
     font-size: 14px;
     font-weight: 500;
@@ -38,5 +48,15 @@
 
 .copyrigth-text a {
     text-decoration: none;
-    color: var(--purple);
+    color: var(--purple-secundary);
 }
+
+.box-dark-ligth-mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+/* SunMoon */
