@@ -2,11 +2,17 @@ import { IoBasketballOutline } from "react-icons/io5";
 import { PiTwitterLogo } from "react-icons/pi";
 import { RiShareCircleLine } from "react-icons/ri";
 import style from "./SocialMedia.module.css";
+import { useHoverScale } from "../../../Hooks/HoverScale/useHoverScale";
 
 function SocialMedia () {
 
+    const { hoverStyle, handleMouseEnter, handleMouseLeave } = useHoverScale();
+
     return (
-            <div className={style['hero-rigth']}>
+            <div className={style['hero-rigth']}
+            style={hoverStyle}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}>
             <div className={style['hero-rigth-background']}>
                 <div className={style['hero-rigth-background-wrapper']}>
                     <div className={style['icon-container']}>

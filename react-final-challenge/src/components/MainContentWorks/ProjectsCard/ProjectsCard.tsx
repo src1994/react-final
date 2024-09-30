@@ -1,13 +1,18 @@
 import style from "./ProjectsCard.module.css"
 import { RiShareCircleLine } from "react-icons/ri";
-
+import { useHoverScale } from "../../../Hooks/HoverScale/useHoverScale";
 
 function ProjectsCard (props:any) {
+
+    const { hoverStyle, handleMouseEnter, handleMouseLeave } = useHoverScale();
 
     const {title, subtitle} = props;
 
     return(
-        <div className={style['project-card']}>
+        <div className={style['project-card']}
+            style={hoverStyle}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}>
             <div className={style['project-card-image']}></div>
             <div className={style['project-card-footer']}>
                 <div className={style['titles']}>

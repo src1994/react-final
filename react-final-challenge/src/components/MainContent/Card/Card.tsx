@@ -1,11 +1,18 @@
 import style from './Card.module.css';
 import { RiShareCircleLine } from "react-icons/ri";
+import { useHoverScale } from "../../../Hooks/HoverScale/useHoverScale";
 
 function Card(props:any) {
     const { title, subtitle } = props;
 
+    const { hoverStyle, handleMouseEnter, handleMouseLeave } = useHoverScale();
+
+
     return (
-        <div className={style['featured-left']}>
+        <div className={style['featured-left']}
+            style={hoverStyle}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}>
             <div className={style['img']}></div>
             <div className={style['card-text-container']}>
                 <div className={style['card-text-wrapper']}>

@@ -1,9 +1,15 @@
 import styles from "./StatsCard.module.css"
+import { useHoverScale } from "../../../Hooks/HoverScale/useHoverScale";
 
 function StatsCard() {
 
+    const { hoverStyle, handleMouseEnter, handleMouseLeave } = useHoverScale();
+
     return(
-        <div className={styles['main-footer-left']}>
+        <div className={styles['main-footer-left']}
+            style={hoverStyle}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}>
                 <div className={styles['years']}>
                     <h1 className={styles['stats-numb']}>+07</h1>
                     <h5 className={styles['stats-text']}>years of experience</h5>

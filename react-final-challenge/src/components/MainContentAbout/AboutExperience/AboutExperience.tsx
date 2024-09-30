@@ -1,12 +1,17 @@
-
 import style from "./AboutExperience.module.css"
+import { useHoverScale } from "../../../Hooks/HoverScale/useHoverScale";
 
 function AboutExperience (props: any) {
 
+    const { hoverStyle, handleMouseEnter, handleMouseLeave } = useHoverScale();
     const { HeaderTitle, YearTextHero, TitleTextHero, TextHero, YearTextFooter, TitleTextFooter, TextFooter} = props;
 
     return(
-        <div className={style['experience']}>
+        <div className={style['experience']}
+        style={hoverStyle}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
             <div className="experience-container">
                 <div className={style['text-container']}>
                     <div className={style['text-header']}>

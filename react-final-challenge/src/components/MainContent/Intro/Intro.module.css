@@ -64,3 +64,101 @@
     color: var(--silver-cards-ligth);
     padding-top: 25px;
   }
+
+  @media (max-width: 768px) {
+    .intro {
+    display: flex;
+    width: 568px;
+    height: auto;
+    gap: 30px;
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 30px;
+  }
+
+  [data-theme='dark'] .intro {
+    background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.075) 10.15%, rgba(255, 255, 255, 0.0125) 89.36%);
+    border: 1px solid;
+    border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
+  }
+    
+  .photo {
+    width: 224px;
+    height: 224px;
+    background-color: var(--silver-cards);
+    border-radius: 30px 0px 30px 0px;
+  }
+
+
+  .intro-text h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--silver-text);
+  }
+
+  .intro-text h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--black-text);
+    padding-bottom: 10px;
+  }
+
+  .intro-text p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--silver-text)
+
+  }
+
+  .intro-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    font-size: 40px;
+    color: var(--silver-cards-ligth);
+    padding-top: 25px;
+  }
+  }
+
+  @media (max-width: 768px) {
+    .intro {
+        flex-direction: column; /* Alinha os elementos verticalmente */
+        width: 100%; /* Usa toda a largura da tela */
+        padding: 20px; /* Ajusta o preenchimento */
+        gap: 20px; /* Reduz o espaço entre os elementos */
+    }
+
+    .photo {
+        width: 100%; /* Ajusta a foto para 100% da largura do contêiner */
+        height: auto; /* Ajusta automaticamente a altura */
+        border-radius: 20px; /* Um pouco mais arredondado para telas menores */
+    }
+
+    .intro-text h1 {
+        font-size: 28px; /* Reduz o tamanho do título */
+        line-height: 36px; /* Ajusta a altura da linha */
+    }
+
+    .intro-text h6, .intro-text p {
+        font-size: 12px; /* Reduz o tamanho do texto */
+        line-height: 18px;
+    }
+
+    .intro-icon {
+        font-size: 32px; /* Reduz o ícone */
+    }
+}
