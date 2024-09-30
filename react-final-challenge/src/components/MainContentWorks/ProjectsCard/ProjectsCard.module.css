@@ -10,6 +10,12 @@
  
 }
 
+[data-theme='dark'] .project-card {
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.075) 10.15%, rgba(255, 255, 255, 0.0125) 89.36%);
+  border: 1px solid;
+  border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
+}
+
 .project-card-image {
     width: 338px;
     height: 287px;
@@ -29,6 +35,30 @@
     display: flex;
     flex-direction: column;
 }
+
+.card-subtitle {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: var(--silver-text);
+    padding-top: 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .card-title {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;    
+    color:  var(--black-text);
+  }
+
 .card-icon {
     font-size: 40px;
     color: var(--silver-cards-ligth);

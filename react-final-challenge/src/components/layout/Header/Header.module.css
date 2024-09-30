@@ -6,7 +6,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: var(--silver-background);
-    width: 1160px;
+    
 }
 
 .logo {
@@ -72,3 +72,5 @@ text-align: center;
     background-color: var(--purple);
     color: black;
 }
+
+

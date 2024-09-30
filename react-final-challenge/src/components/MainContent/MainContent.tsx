@@ -9,7 +9,7 @@ import BannerCard from "./BannerCard/BannerCard";
 
 function MainContent () {
     return(
-        <main className="main-container">
+    <main className="main-container">
         <section className="main-header">
             <Intro/>
             <div className="featured">
