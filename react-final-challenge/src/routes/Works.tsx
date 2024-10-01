@@ -1,4 +1,3 @@
-import React from 'react'
 import MainContentWorks from '../components/MainContentWorks/MainContentWorks'
 
 function Works() {
