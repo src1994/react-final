@@ -40,3 +40,12 @@
     text-align: left;
     color: var(--silver-text);
 }
+
+@media (max-width: 768px) {
+    .about-presentation {
+        width: 56%;
+        height: auto;
+    }
+
+  
+}

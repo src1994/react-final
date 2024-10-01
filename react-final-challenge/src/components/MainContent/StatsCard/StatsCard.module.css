@@ -1,6 +1,6 @@
 
 .main-footer-left {
-    width: 50%;
+    width: 568px;
     height: 240px;
     background-color: var(--white);
     border-radius: 30px;
@@ -91,3 +91,27 @@
     border: 1px solid;
     border-image-source: linear-gradient(118.17deg, rgba(255, 255, 255, 0.0875) 14.33%, rgba(255, 255, 255, 0.0175) 87.33%);
   }
+
+
+  @media (max-width: 768px) {
+    
+.main-footer-left {
+  width: 50%;
+  height: auto;
+}
+
+  .stats-text {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--silver-text);
+    text-transform: uppercase;
+    width: 65%;
+  }
+
+  }
+
+

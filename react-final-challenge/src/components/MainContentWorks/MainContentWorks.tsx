@@ -55,8 +55,8 @@ function MainContentWorks() {
                 subtitle={users[0].username} 
               />
               <ProjectCard
-                title={users[0].name} 
-                subtitle={users[0].username} 
+                title={users[5].name} 
+                subtitle={users[5].username} 
               />
             </>
           )}

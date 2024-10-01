@@ -12,13 +12,15 @@ function Intro() {
             onMouseLeave={handleMouseLeave}>
             <div className={style['photo']}></div>
             <div className={style['intro-text']}>
-                <h6>a web developer</h6>
-                <h1>Nelson Fernandes.</h1>
-                <p>I am a web developer based in Porto Portugal</p>
-                <div
-                    className={style['intro-icon']}>
-                    <RiShareCircleLine />
-                </div>
+                <div className={style['intro-text-container']}>
+                    <h6>a web developer</h6>
+                    <h1>Nelson Fernandes.</h1>
+                    <p>I am a web developer based in Porto Portugal</p>
+                    <div
+                        className={style['intro-icon']}>
+                        <RiShareCircleLine />
+                    </div>
+                    </div>
             </div>
         </div>
     );

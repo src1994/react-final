@@ -56,7 +56,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0px;
+    padding-right:  30px;
 }
 
 /* SunMoon */

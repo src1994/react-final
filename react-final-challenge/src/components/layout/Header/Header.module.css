@@ -58,19 +58,17 @@ nav ul {
 
 
 .cta-button {
-width: 130px;
-height: 45px;
-top: 35px;
-gap: 0px;
-border-radius: 16px;
-background-color: var(--black-button);
-color: var(--white-btn);
-font-family: Inter;
-font-size: 16px;
-font-weight: 600;
-line-height: 19.36px;
-text-align: center;
-
+    width: 130px;
+    height: 45px;
+    border-radius: 16px;
+    background-color: var(--black-button);
+    color: var(--white-btn);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Adicione transição para um efeito mais suave */
 }
 
 .cta-button:hover {
@@ -80,10 +78,20 @@ text-align: center;
 
 @media screen and (max-width: 780px){
 header {
-    padding-bottom: 0px;
+  width: 100%;
+  padding-bottom: 0px;
     
 }
 
+.logo {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: -2.5999999046325684px;
+  text-align: left;
+  color: var(--black-text);
+  text-decoration: none;
+  }
 
 .hamburger {
     position: absolute;
@@ -146,5 +154,13 @@ header {
     .nav-menu li {
       margin: 16px 0;
     }
+
+    .cta-button{
+      display: none;
+    }
+
+   
   }
+
+
 

@@ -20,3 +20,9 @@
     border-radius: 30px;
     background-color: var(--silver-cards);
 }
+
+@media (max-width: 768px) { 
+    .about-img-card{
+        width: 100%;
+    }
+}

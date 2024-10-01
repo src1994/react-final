@@ -22,6 +22,7 @@
   }
 
 
+ 
   .intro-text h6 {
     font-family: Inter;
     font-size: 14px;
@@ -68,7 +69,7 @@
   @media (max-width: 768px) {
     .intro {
     display: flex;
-    width: 568px;
+    width: 71%;
     height: auto;
     gap: 30px;
     background-color: var(--white);
@@ -83,10 +84,14 @@
   }
     
   .photo {
-    width: 224px;
-    height: 224px;
-    background-color: var(--silver-cards);
-    border-radius: 30px 0px 30px 0px;
+   display: none;
+  }
+
+  .intro-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
   }
 
 
@@ -134,31 +139,4 @@
   }
   }
 
-  @media (max-width: 768px) {
-    .intro {
-        flex-direction: column; /* Alinha os elementos verticalmente */
-        width: 100%; /* Usa toda a largura da tela */
-        padding: 20px; /* Ajusta o preenchimento */
-        gap: 20px; /* Reduz o espaço entre os elementos */
-    }
-
-    .photo {
-        width: 100%; /* Ajusta a foto para 100% da largura do contêiner */
-        height: auto; /* Ajusta automaticamente a altura */
-        border-radius: 20px; /* Um pouco mais arredondado para telas menores */
-    }
-
-    .intro-text h1 {
-        font-size: 28px; /* Reduz o tamanho do título */
-        line-height: 36px; /* Ajusta a altura da linha */
-    }
-
-    .intro-text h6, .intro-text p {
-        font-size: 12px; /* Reduz o tamanho do texto */
-        line-height: 18px;
-    }
-
-    .intro-icon {
-        font-size: 32px; /* Reduz o ícone */
-    }
-}
+ 

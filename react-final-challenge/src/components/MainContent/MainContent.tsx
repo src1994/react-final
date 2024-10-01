@@ -32,9 +32,9 @@ function MainContent () {
                 subtitle="GFonts"
             />
             <ServicesCard/>
-            <div className="main-rigth">
-                <SocialMedia/>
-            </div>  
+            
+            <SocialMedia/>
+            
         </section>
         <section className="main-footer">
             <StatsCard/>

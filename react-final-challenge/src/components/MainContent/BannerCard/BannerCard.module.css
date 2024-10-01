@@ -36,3 +36,24 @@
     color: var(--silver-ligth-text);
   }
 
+  @media (max-width: 768px) {
+    .featured-header {
+    display: flex;
+    flex-direction: column;
+    width: 71%;
+    height: auto;
+    gap: 30px;
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items:center;
+  }
+
+
+  .featured-text {
+    overflow: hidden;
+  }
+
+ 
+  }

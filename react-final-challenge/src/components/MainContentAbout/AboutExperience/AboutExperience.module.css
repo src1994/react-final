@@ -59,3 +59,10 @@
     color: var(--deep-silver-text);
 }
 
+@media (max-width: 768px) {
+    .experience{
+        width: 88%;
+        height: auto;
+    }
+  
+}
