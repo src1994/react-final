@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./routes/Home.tsx"
 import About from "./routes/About.tsx"
 import Works from "./routes/Works.tsx"
+import ErrorPage from './routes/ErrorPage.tsx';
 import App from './App.tsx';
 
 /*const router = createBrowserRouter([
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App/>,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
