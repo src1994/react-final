@@ -1,7 +1,10 @@
 import styles from "./AboutPhotoCard.module.css"
 import { useHoverScale } from "../../../Hooks/HoverScale/useHoverScale";
 
-function  AboutPhotoCard() {
+function  AboutPhotoCard(props:any) {
+
+    const {imageSrc} = props;
+    
 
     const { hoverStyle, handleMouseEnter, handleMouseLeave } = useHoverScale();
 
@@ -10,7 +13,9 @@ function  AboutPhotoCard() {
             style={hoverStyle}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
-             <div className={styles['photo-img']}></div>
+             <div className={styles['photo-img']}>
+                <img src={imageSrc} alt="photo"/>
+             </div>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import { RiShareCircleLine } from "react-icons/ri";
 import { useHoverScale } from "../../../Hooks/HoverScale/useHoverScale";
 
 function Card(props:any) {
-    const { title, subtitle } = props;
+    const { title, subtitle, imageSrc } = props;
 
     const { hoverStyle, handleMouseEnter, handleMouseLeave } = useHoverScale();
 
@@ -13,7 +13,9 @@ function Card(props:any) {
             style={hoverStyle}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
-            <div className={style['img']}></div>
+            <div className={style['img']}>
+            <img src={imageSrc} alt="photo"/>
+            </div>
             <div className={style['card-text-container']}>
                 <div className={style['card-text-wrapper']}>
                     <h6 className={`${style['card-subtitle']} ${style[subtitle]}`}>{title}</h6>

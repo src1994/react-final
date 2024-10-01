@@ -8,6 +8,11 @@ import BannerCard from "./BannerCard/BannerCard";
 
 
 function MainContent () {
+    const imageUrl  = "./images/florian-klauer-mk7D-4UCfmg-unsplash.jpg";
+    const imageUrlCredencials ="./images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg"
+    const imageUrlProjects ="./images/firmbee-com-ir5lIkVFqC4-unsplash.jpg"
+
+
     return(
     <main className="main-container">
         <section className="main-header">
@@ -16,10 +21,12 @@ function MainContent () {
                 <BannerCard/>
                 <div className="featured-left-rigth-container">
                     <Card 
+                        imageSrc={imageUrlCredencials}
                        title="more about me"
                        subtitle="Credentials"
                     />
                     <Card
+                       imageSrc={imageUrlProjects}
                         title="showcase"
                         subtitle="Projects"
                     />
@@ -28,6 +35,7 @@ function MainContent () {
         </section>
         <section className="main-hero">
             <Card
+                imageSrc ={imageUrl}
                 title="blog"
                 subtitle="GFonts"
             />

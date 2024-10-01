@@ -9,11 +9,16 @@ import Card from "../MainContent/Card/Card"
 
 function MainContentAbout() {
 
+    const imageUrl  = "./images/history-in-hd-rHIiT1Q6GIg-unsplash.jpg";
+    const imageUrlCredencials ="./images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg"
+
     return (
     <main className="main-container">
         <section className="main-header">
             <div className="summary-left">
-                <AboutPhotoCard/>
+                <AboutPhotoCard
+                imageSrc={imageUrl}
+                />
             </div>
             <div className="summary-rigth">
                 <TitleCard
@@ -48,6 +53,7 @@ function MainContentAbout() {
            <SocialMedia/>
            <ContactCard/>
            <Card 
+                imageSrc = {imageUrlCredencials}
                 title="more about me"
                 subtitle="Credentials"
              />

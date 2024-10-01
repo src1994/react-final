@@ -10,7 +10,9 @@ function Intro() {
             style={hoverStyle}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
-            <div className={style['photo']}></div>
+            <div className={style['photo']}>
+                <img src="./images/history-in-hd-rHIiT1Q6GIg-unsplash.jpg" alt="photo" />
+            </div>
             <div className={style['intro-text']}>
                 <div className={style['intro-text-container']}>
                     <h6>a web developer</h6>

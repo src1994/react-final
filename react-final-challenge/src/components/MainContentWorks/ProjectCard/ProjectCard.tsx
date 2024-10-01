@@ -12,7 +12,9 @@ function ProjectCard (props:any) {
         style={hoverStyle}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}>
-            <div className={style['project-card-image']}></div>
+            <div className={style['project-card-image']}>
+            <img src="./images/igor-miske-Px3iBXV-4TU-unsplash.jpg" alt="photo"/>
+            </div>
             <div className={style['project-card-footer']}>
                 <div className={style['titles']}>
                     <h6 className={`${style['card-subtitle']} ${style[subtitle]}`}>{title}</h6>
